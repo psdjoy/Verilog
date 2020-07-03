@@ -1,4 +1,4 @@
-module tfromjk(t,clk,q);
+module t_from_jk(t,clk,q);
 input t,clk;
 output q;
 jk_a jk_01(t,t,clk,q);
