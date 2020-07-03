@@ -1,4 +1,4 @@
-module addern(x,y,cin,s,cout);
+module adder_nbit(x,y,cin,s,cout);
 parameter n=4;
 input [n-1:0]x,y;
 input cin;
