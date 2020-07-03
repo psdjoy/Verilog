@@ -1,4 +1,4 @@
-module decoder24(w,en,y);
+module decoder_2to4(w,en,y);
 input [1:0]w;
 input en;
 output reg [0:3]y;
