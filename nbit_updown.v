@@ -1,4 +1,4 @@
-module nbitupdown(clk,count,resetn);
+module nbit_updown(clk,count,resetn);
 input clk,resetn;
 output reg [3:0]count;
 initial count = 0;
