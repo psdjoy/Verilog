@@ -1,4 +1,4 @@
-module fa(A,B,C,Cout,S);
+module fa_using_ha(A,B,C,Cout,S);
 input A,B,C;
 output Cout,S;
 wire C1,C2,S1;
